@@ -1,0 +1,5710 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Microsoft YaHei UI;
+}
+
+/* .about_nav_bar_badel_1 {
+    position: relative;
+    z-index: 99999999999;
+} */
+
+.login_btn {
+    width: 100%;
+    border-radius: 25px;
+    border: 2px solid #FCBB15;
+    font-weight: 500;
+    color: #000;
+}
+
+.login_btn:hover {
+    border: 2px solid #FCBB15;
+    background-color: #fff;
+    color: #FCBB15;
+}
+
+.register_btn {
+    width: 100%;
+    color: #fff;
+    border-radius: 25px;
+    border: 2px solid #FCBB15;
+    background: #FCBB15;
+}
+
+.register_btn:hover {
+    color: #FCBB15;
+    background-color: #fff;
+    border: 2px solid #FCBB15;
+}
+
+.n-lins {
+    margin: 0 auto;
+}
+
+li.nav-item {
+    padding: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #333333;
+    font-size: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #29435A;
+}
+
+.icen_index_div-1 {
+    margin-top: 80px;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #fff;
+    background-color: #29435a;
+}
+
+.dropdown-item:focus,
+.dropdown-item {
+    font-size: 18px;
+}
+
+img.about_Get_in_touch_img {
+    width: 100%;
+    padding-top: 50px;
+}
+
+img.about_Get_in_touch_st {
+    width: 40px;
+    height: 40px;
+}
+
+.about_Get_in_touch {
+    background-color: #29435A;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.about_Get_in_touch h3 {
+    color: #fff;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+span.get_span_1 {
+    color: #FCBB15;
+    font-size: 20px;
+}
+
+.div-flex h5 {
+    color: #fff;
+    font-size: 16px;
+}
+
+/********* About us ***********/
+
+.aboutPage {
+    background: url(../image/about-banner.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;
+}
+
+.mainHeading_about {
+    text-align: center;
+    /* margin-top: 230px; */
+    padding-top: 300px;
+}
+
+.mainHeading_about h2 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.mainHeading_about h3 {
+    font-size: 30px;
+    color: #FCBB15;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.mainHeading_about p {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 5px;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.about_div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about_Business {
+    background-color: #fff;
+    width: 255px;
+    height: 255px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+.about_Business img {
+    width: 90%;
+}
+
+.about_banner_text {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 9999999;
+}
+
+.about_banner_text h5 {
+    padding: 0px 50px 0px 55px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.about_supplyMe {
+    margin-top: 180px;
+}
+
+.about_supplyMe img {
+    width: 100%;
+}
+
+.about_supplyMe h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #29435a;
+}
+
+.about_supplyMe h4 {
+    font-size: 35px;
+    color: #29435A;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about_supplyMe p {
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.about_supplyMe h4 span {
+    color: #29435a;
+}
+
+.about_supplyMe button {
+    background-color: #29435A;
+    border: 1px solid #29435A;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 8px;
+    width: 240px;
+    transition: 0.2s;
+}
+
+.about_supplyMe button:hover {
+    background-color: #fff;
+    border: 1px solid #29435A;
+    color: #29435A;
+}
+
+.aboutPage_bac {
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.about_div {
+    margin-top: 90px;
+}
+
+.about_div_1 {
+    background-image: url("../image/line-bac.png");
+    background-color: #29435A;
+    width: 80%;
+    height: 180px;
+    color: #fff;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.about_div_1 h3 {
+    font-size: 30px;
+    text-align: center;
+    line-height: 45px;
+    padding-top: 15px;
+}
+
+.about_div_1 h3 span {
+    font-size: 30px;
+    text-align: center;
+    color: #FCBB15;
+    font-weight: 600;
+}
+
+.about_div_1 p {
+    height: 130px;
+    width: 3px;
+    background-color: #fff;
+}
+
+.list_your_business {
+    margin-top: 50px;
+}
+
+.list_your_business_bac {
+    background-image: url(../image/bg-preview.png);
+    position: relative;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.list_your_business h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #29435A;
+    padding-top: 50px;
+}
+
+.list_your_business p {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    line-height: 25px;
+}
+
+.list_your_business .list_your_btn {
+    background-color: #29435A;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 8px;
+    width: 230px;
+    transition: 0.2s;
+}
+
+.list_your_business .list_your_btn:hover {
+    background-color: #fff;
+    color: #29435A;
+    border: 1px solid #29435A;
+}
+
+.list_your_business img {
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+h5.about_div_slider {
+    font-size: 36px;
+    font-weight: 700;
+    color: #29435A;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h5.about_div_slider span {
+    color: #FCBB15;
+}
+
+/* ******* CONTACT-US old Om Prakash******** */
+
+/* .contactPage {
+    background: url(../image/CONTACT-US-BANNER.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 44vw;
+}
+
+.contact_text {
+    position: relative;
+    top: 145px;
+    text-align: center;
+}
+
+.contact_text h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #29435A;
+    margin-bottom: 20px;
+}
+
+.contact_text h2 span {
+    color: #FCBB15;
+}
+
+.contact_text p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+    line-height: 25px;
+    width: 36%;
+    margin: 0 auto;
+}
+
+.contact-flex p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.contact-flex i {
+    font-size: 25px;
+    color: #FCBB15;
+}
+
+.contact-flex {
+    display: flex;
+    gap: 10px;
+}
+
+.contact_icen {
+    background-image: url(../image/bg-preview.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.connect_bac_1 {
+    background-image: linear-gradient(to right, rgba(217, 235, 239, 1), rgba(217, 223, 227, 0.5));
+    height: 281px;
+    position: relative;
+    z-index: -1;
+}
+
+.contact_text_page {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-control {
+    background-color: #D9D9D9;
+    border: #D9D9D9;
+    margin-bottom: 24px;
+}
+
+.contact_form_btns {
+    text-align: center;
+}
+
+button.form_btn {
+    background-color: #FCBB15;
+    border-color: #FCBB15;
+    border: 1px solid #FCBB15;
+    padding: 7px 0px 7px 0px;
+    width: 50%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 35px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+button.form_btn:hover {
+    background-color: #fff;
+    border: 1px solid #FCBB15;
+    color: #FCBB15;
+}
+
+.contact_form {
+    background-color: #29435A;
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+    top: -160px;
+}
+
+.contact_form img {
+    width: 100%;
+
+}
+
+.contact_form h3 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+
+.contact_form h3 span {
+    color: #FCBB15;
+}
+
+.contact_form p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 60px;
+} */
+/* ******* CONTACT-US old Om Prakash******** */
+
+/* Contact Us Page Mihul Starts */
+.globeImage {
+    margin-top: 10%;
+    margin-left: 2%;
+    width: 28%;
+    position: absolute;
+}
+
+.contactSections {
+    display: flex;
+}
+
+.contactHeading {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 23%;
+    font-weight: 700;
+}
+
+.us-back {
+    color: #FCBB15;
+    font-size: 40px;
+}
+
+.subtitleContact {
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    width: 61%;
+    margin: 0 auto;
+    padding-top: 1%;
+}
+
+.contactInputsSections {
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+
+.contactsSections1 {
+    border-radius: 26px;
+    background: #29435A;
+    width: 65%;
+    padding: 61px;
+}
+
+.dropAline {
+    color: #FFF;
+    text-align: center;
+    font-size: 33px;
+    margin-top: 2%;
+}
+
+.line-back {
+    color: #FCBB15;
+    font-size: 33px;
+}
+
+.pleaseFeelfree {
+    color: #FFF;
+    text-align: center;
+    font-size: 19px;
+}
+
+.labelNames {
+    color: white;
+}
+
+.subButtoncontact {
+    border-radius: 12px;
+    background: rgb(252, 187, 21);
+    width: 40%;
+    padding: 10px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.subButtoncontact:hover {
+    background-color: #fff;
+    color: rgb(252, 187, 21);
+}
+
+.buttonDiv {
+    text-align: center;
+}
+/* Contact Us Page Mihul Ends */
+
+
+.page_footer {
+    background-image: linear-gradient(to right, rgba(204, 204, 204, 0.5), rgba(158, 179, 194, 0.5));
+    padding-top: 50px;
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 30px;
+
+}
+
+.page_footer a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+
+.page_footer a:hover {
+    color: #29435a;
+    text-decoration: underline;
+}
+
+.page_footer li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.footer_bac {
+    background-color: rgba(52, 73, 94, 1);
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.page_footer p {
+    padding-top: 20px;
+}
+
+.page_footer h5 {
+    margin-bottom: 20px;
+    color: #29435a;
+    font-weight: 700;
+}
+
+.icen_but_f span {
+    margin: 2px;
+}
+
+.icen_but_f i {
+    background-color: #FCBB15;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    color: #34495E;
+}
+
+.icen_but_f span i {
+    font-size: 22px;
+    padding-top: 5px;
+}
+
+.footer_bac p {
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.footer_bac p a {
+    color: #fff;
+    padding: 5px;
+}
+
+.page_footer img {
+    width: 100%;
+}
+
+/* ******* Profile_page ********* */
+
+.Profile_page {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(217, 223, 227, 0.5));
+}
+
+.company_profile {
+    /* margin-top: 50px; */
+    padding-top: 70px;
+}
+
+.company_profile_img {
+    transition: transform .2s;
+}
+
+.company_profile_img:hover {
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.company_profile_img1 {
+    transition: transform .2s;
+}
+
+.company_profile_img1:hover {
+    -ms-transform: scale(0.8);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.8);
+}
+
+.company_profile_img2 {
+    transition: transform .2s;
+}
+
+.company_profile_img2:hover {
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.company_profile_img3 {
+    transition: transform .2s;
+}
+
+.company_profile_img3:hover {
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.company_profile_img img {
+    width: 100%;
+    margin-top: 85px;
+}
+
+.company_profile_img1 img {
+    width: 100%;
+}
+
+.company_profile_img2 img {
+    width: 100%;
+    margin-top: 85px;
+}
+
+.company_profile_img3 img {
+    width: 100%;
+}
+
+.company_profile_text button {
+    background-color: #FCBB15;
+    border: 1px solid #FCBB15;
+    padding: 7px 20px 7px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    z-index: 999;
+    transition: 0.2s;
+}
+
+.company_profile_text button:hover {
+    background-color: #fff;
+    border: 1px solid #FCBB15;
+    color: #FCBB15;
+}
+
+.company_profile_text h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.company_profile_text p {
+    font-weight: 500;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+
+.company_profile_text {
+    margin-bottom: 150px;
+    margin-top: auto;
+}
+
+.profile_background {
+    margin-top: -280px;
+}
+
+.com_bac {
+    background-image: url(../image/bg-preview.png);
+    position: relative;
+    background-size: 25%;
+    background-repeat: no-repeat;
+    height: 25vw;
+    background-position: right;
+    top: -12vw;
+    margin-right: 15px;
+}
+
+.profile_background_img {
+    background-color: #29435A;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    z-index: 999;
+}
+
+.profile_background_img img {
+    margin-top: 30px;
+    width: 20%;
+}
+
+.profile_background h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.profile_background p {
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.profile_video li a {
+    color: #29435A;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.profile_video li {
+    padding-bottom: 8px;
+}
+
+.profile_video {
+    margin-top: 70px;
+}
+
+.profile_video img {
+    width: 75%;
+    margin-top: 70px;
+}
+
+.profile_video h5 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #29435A;
+    margin-top: 50px;
+}
+
+.profile_video h5 span {
+    color: #FCBB15;
+}
+
+.profile_video p {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.gif_banner_img{
+    position: relative;
+}
+.profileBtn {
+    padding: 7px 50px 7px 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #29435A;
+    border-radius: 10px;
+    margin-top: 40px;
+    position: relative;
+    z-index: 99999;
+    transition: 0.2s;
+}
+ 
+.profileBtn:hover {
+    color: #29435A;
+    background-color: #fff;
+    border: 1px solid #29435A;
+}
+
+.connect_buyers_bac {
+    background-image: url(../image/connect_buyers_bac.png);
+    position: relative;
+    background-size: 27%;
+    background-repeat: no-repeat;
+    height: 22vw;
+    top: -10vw;
+    left: 115px;
+    width: 80%;
+}
+
+.across_generations {
+    position: relative;
+    top: -16vw;
+}
+
+.across_generations h3 {
+    font-size: 36px;
+    color: #29435A;
+    font-weight: 700;
+}
+
+.across_generations h3 span {
+    color: #FCBB15;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.across_generations h5 {
+    font-size: 30px;
+    color: #29435A;
+    font-weight: 700;
+}
+
+.across_generations span {
+    font-size: 20px;
+    color: #333333;
+    font-weight: 500;
+}
+
+.div-flex {
+    display: flex;
+    gap: 25px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.st_re_de {
+    width: 50px;
+    height: 50px;
+}
+
+.showcase_business {
+    background-color: #29435A;
+}
+
+.showcase_business h3 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 80px;
+}
+
+.showcase_business h3 span {
+    color: #FCBB15;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.showcase_business p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.sho_01 h4 {
+    font-size: 150px;
+    font-weight: 700;
+    color: #F0F0F0;
+    opacity: 30%;
+}
+
+.sho_01 p {
+    position: relative;
+    top: -8vw;
+    left: 9vw;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.sho_01 span {
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    top: -5vw;
+}
+
+/* sho_02 */
+
+.sho_02 h4 {
+    font-size: 150px;
+    font-weight: 700;
+    color: #F0F0F0;
+    opacity: 30%;
+}
+
+.sho_02 p {
+    position: relative;
+    top: -8vw;
+    left: 9vw;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.sho_02 span {
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    top: -5vw;
+}
+
+.sho_01.cre_o3 {
+    margin-top: -55px;
+}
+
+.sho_02 {
+    margin-left: 14vw;
+    margin-top: -55px;
+}
+
+.showcase_business button {
+    padding: 7px 50px 7px 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FCBB15;
+    border: 1px solid #FCBB15;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.bac_slider1{
+    position: relative;
+    width: 100%;
+    opacity: 0.2;
+}
+
+.slider_st_div_1 {
+    margin-top: 195px;
+}   
+
+.img_top_slider{
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* slider-img-&-text */
+
+.newsletters-main {
+    margin-top: 80px;
+}
+
+.success_stories_slider h3 {
+    color: #29435a;
+    font-family: Microsoft YaHei UI;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    position: relative;
+    line-height: 50px;
+}
+
+.success_stories_slider h3 {
+    color: #29435a;
+    font-size: 35px;
+    font-weight: 700;
+    position: relative;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+
+.success_stories_slider p {
+    color: #000;
+    font-size: 16px;
+}
+
+p.business_grew_text {
+    color: #000;
+    font-family: Microsoft YaHei UI;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+p.business_grew_text span {
+    font-size: 30px;
+    color: #fcbb15;
+}
+
+.success_stories_slider_to {
+    margin-top: 20vw;
+    height: 315px;
+}
+
+.success_stories_slider_to1 {
+    height: 625px;
+}
+
+.companies_div_slider img {
+    width: 21%;
+}
+
+.companies_div_slider {
+    display: flex;
+    gap: 25px;
+    padding-top: 55px;
+    margin-left: 20px;
+}
+
+span.Karen_div {
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 35px;
+}
+
+p.tesla_div {
+    font-size: 16px;
+    padding-top: 5px;
+    opacity: 0.6;
+}
+
+.sli_bac {
+    margin-top: 60px;
+}
+
+.sli_bac1_div {
+    position: relative;
+    top: -15vw;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0px 15px 0px 20px;
+    left: 8vw;
+    width: 75%;
+    height: 430px;
+}
+
+.success_stories_slider button {
+    background-color: #29435A;
+    border: 1px solid #29435A;
+    padding: 7px 20px 7px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    width: 315px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    transition: 0.2s;
+}
+
+.success_stories_slider button:hover {
+    background-color: #fff;
+    border: 1px solid #29435A;
+    color: #29435A;
+}
+
+/******* results_page *********/
+
+.results_page {
+    background: url(../image/results_page.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 70vw;
+}
+
+.btn_dr_div {
+    color: #fff;
+    background-color: #FCBB15 !important;
+    border-color: #FCBB15 !important;
+    width: 130px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.btn_dr_div:hover {
+    color: #FCBB15;
+    background-color: #fff !important;
+    border-color: #FCBB15 !important;
+}
+
+input.caregory_btn {
+    background-color: #fff;
+    border: 0px solid #fff;
+    font-size: 15px;
+    color: #868E96;
+}
+
+.results_page_text h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.results_page_text {
+    margin-top: 222px;
+}
+
+.results_page_text p {
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.suppliers_category_bac {
+    background-image: url(../image/world-img.png);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-color: #29435a;
+    position: relative;
+    background-position: center;
+}
+
+.suppliers_category h4 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+.suppliers_category h6 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 15px;
+}
+
+.suppliers_category p {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.suppliers_category_text {
+    padding: 20px;
+}
+
+.suppliers_category_bac img {
+    display: flex;
+    margin: 0 auto;
+}
+
+.suppliers_category span {
+    font-size: 20px;
+    color: #FCBB15;
+    text-decoration: underline;
+}
+
+.suppliers_category_text_a {
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    padding: 20px;
+}
+
+.suppliers_category_text_a h2 {
+    font-size: 80px;
+    color: #FCBB15
+}
+
+.suppliers_name {
+    position: relative;
+    margin-top: 30px;
+}
+
+.suppliers_name_bac {
+    background-image: url(../image/world-img.png);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-color: #29435a;
+    height: 32vw;
+    position: relative;
+    background-position: center;
+}
+
+.suppliers_name_bac img {
+    width: 48%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 85px;
+}
+
+.suppliers_name_text {
+    position: relative;
+    padding: 20px;
+}
+
+.suppliers_name_text h4 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.suppliers_name_text h3 {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.suppliers_name_text h3 span {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    padding-left: 15px;
+}
+
+.suppliers_name_text p {
+    font-size: 20px;
+    color: #FCBB15;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+.industry_insights {
+    position: relative;
+    height: 9vw;
+    padding-top: 70px;
+}
+
+.new_products_1 h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.new_products_1 span {
+    font-size: 16px;
+    color: #FCBB15;
+}
+
+.industry_insights_img {
+    background: url(../image/bg-preview.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 20%;
+    height: 20vw;
+    left: 25px;
+}
+
+.industry_insights_text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-container {
+    position: relative;
+    top: 0;
+}
+
+.hello {
+    position: relative;
+    top: 0;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 0%;
+    bottom: 2rem;
+    left: 30px;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    color: #fff;
+    text-align: justify;
+}
+
+span.dai_text {
+    font-size: 25px;
+    font-weight: 600;
+    color: #FCBB15;
+}
+
+h5.Short_div_text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.new_products {
+    background: url(../image/bg-preview.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: right;
+    width: 86%;
+    margin: 0 auto;
+}
+
+.new_products_1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    margin-bottom: 25px;
+}
+
+.new_btn_com {
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 92%;
+    position: relative;
+    z-index: 999;
+}
+
+.naw_text_h button {
+    background-color: #29435A;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid #29435A;
+}
+
+.naw_text_h h4 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 21px;
+    line-height: 35px;
+}
+
+.industry_insights_text h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.industry_insights_text span {
+    font-size: 16px;
+    color: #FCBB15;
+}
+
+.new_products_d-ff {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.naw_text_h p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 10px;
+}
+
+.company_news_last {
+    background: url(../image/bg-preview.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    width: 86%;
+    margin: 0 auto;
+}
+
+button.btn_com_l {
+    background-color: #29435A;
+    color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #29435A;
+    width: 80%;
+}
+
+.btn_1122 {
+    text-align: center;
+}
+
+.naw_text_h h5 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 21px;
+    line-height: 40px;
+    padding-left: 26px;
+}
+
+p.text_p_11 {
+    padding-left: 20px;
+}
+
+/* * mihul jvatec* * */
+
+.homePage_nav_bar {
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+}
+
+img.header_logo {
+    width: 160px;
+}
+
+.homePage1 {
+    background: url(../image/homeBanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.mainHeading {
+    color: #34495E;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.lists {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.index_nav_bar_1 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+li.list {
+    color: #34495E;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+span.list_text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.icons>a>i {
+    background-color: #FCBB15;
+    margin-right: 8px;
+    text-align: center;
+    justify-items: center;
+    padding: 4px 6px;
+    position: relative;
+
+    font-size: 21px;
+    color: #fff;
+
+    border-radius: 10px;
+}
+
+.double-chevron {
+    font-size: 50px;
+    z-index: 999999;
+    display: flex;
+    justify-content: center;
+}
+
+#scrollIcon {
+    cursor: pointer;
+    color: #fff;
+}
+
+.about_me {
+    border-radius: 50px;
+    background: linear-gradient(128deg, rgba(255, 255, 255, 0.50) 41.32%, rgba(255, 255, 255, 0.00) 117.04%);
+    height: 650px;
+    width: 80%;
+    margin: auto;
+
+}
+
+.sub-about-me {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.about-supplyme {
+    color: #FCBB15;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.detail-supplyme {
+    color: #023F5F;
+    text-align: center;
+    font-size: 25px;
+}
+
+.sub-detail-supplyme {
+    color: #333;
+    text-align: center;
+    font-size: 16px;
+}
+
+.index-main-container {
+    position: relative;
+    margin-top: 150px;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 50px;
+    width: max-content;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section {
+    background-color: #023F5F;
+    position: relative;
+    height: 250px;
+    z-index: 99999999;
+    border-radius: 10px;
+}
+
+.section-para {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 85px;
+}
+
+.sub-section-para {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* .informations {
+    background: linear-gradient(128deg, rgba(255, 255, 255, 0.50) 41.32%, rgba(255, 255, 255, 0.00) 117.04%);
+} */
+
+.information-border {
+    border-right: 10px solid #FCBB15;
+    padding-right: 3%;
+    margin-top: 20px;
+}
+
+.infor {
+    color: #29435A;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.infor-1 {
+    color: #29435A;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.infor-2 {
+    color: #29435A;
+    text-align: right;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.learn-more-bttn {
+    border-radius: 10px;
+    background: #29435A;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #29435A;
+    width: 150px;
+    padding: 8px;
+    transition: 0.2s;
+}
+
+.learn-more-bttn:hover {
+    background: #fff;
+    color: #29435A;
+    border: 1px solid #29435A;
+}
+
+.btn_learn_1 {
+    text-align: end;
+    padding-right: 47px;
+}
+
+.video-play_img_home img {
+    width: 70%;
+}
+
+.video-play_img_home {
+    position: absolute;
+    /* text-align: center; */
+    margin-top: -100px;
+    /* margin-left: 75px; */
+}
+
+.informations-second {
+    margin-top: 130px
+}
+
+.information-border-second {
+    border-left: 10px solid #FCBB15;
+    padding-left: 3%;
+}
+
+.inform {
+    color: #023F5F;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.inform-1 {
+    color: #023F5F;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.inform-2 {
+    color: #023F5F;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+img.home_pages_bu {
+    width: 100%;
+}
+
+.learn-more-bttn-1 {
+    border-radius: 10px;
+    background: #29435A;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #29435A;
+    margin-left: 35px;
+    padding: 8px;
+    width: 150px;
+    transition: 0.2s;
+}
+
+.learn-more-bttn-1:hover {
+    background: #fff;
+    color: #29435A;
+    border: 1px solid #29435A;
+}
+
+img.home_know_usp {
+    width: 100%;
+}
+
+.usp {
+    color: #29435A;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 50px 0px 0px 50px;
+    background: #84A4BB;
+    width: 69%;
+    position: relative;
+    top: 302px;
+    left: 395px;
+    padding: 10px;
+    padding-left: 80px;
+}
+
+.usp-nos {
+    margin-top: 24%;
+}
+
+.usp-no {
+    list-style-type: none;
+    color: #333333;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.get-demo {
+    margin-top: 5%;
+}
+
+.demos {
+    border-radius: 43px;
+    background: linear-gradient(180deg, #84A4BB 0%, rgba(132, 164, 187, 0.00) 100%);
+}
+
+.demo {
+    color: #29435A;
+    font-size: 35px;
+    font-weight: 600;
+    padding-left: 8%;
+    padding-top: 15%;
+}
+
+.demo-para {
+    color: #333333;
+    font-size: 16px;
+    padding-left: 8%;
+}
+
+.get-start-button {
+    border-radius: 10px;
+    background: #FCBB15;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10% 8%;
+    width: 150px;
+    padding: 8px;
+}
+
+.get-start-button:hover {
+    background: #fff;
+    color: #FCBB15;
+    border: 1px solid #FCBB15;
+}
+
+img.video-play {
+    width: 79%;
+    padding-top: 10%;
+    margin-left: 65px;
+}
+
+.card {
+    border-radius: 2.25rem !important;
+}
+
+.demos-2 {
+    border-radius: 10px;
+    background: linear-gradient(0deg, #84A4BB 0%, rgba(132, 164, 187, 0.00) 80%);
+    margin-bottom: 20px;
+}
+
+.blogs {
+    color: #29435A;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.sub-blogs {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.blog-1 {
+    color: #FFF;
+    font-size: 16px;
+    padding-top: 78%;
+}
+
+.blog-articles {
+    margin-top: 6%;
+}
+
+.explore-bttn {
+    border-radius: 10px;
+    background: #FCBB15;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid #FCBB15;
+    width: 150px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.explore-bttn:hover {
+    background: #fff;
+    color: #FCBB15;
+    border: 1px solid #FCBB15;
+}
+
+.card.text-bg-overlay {
+    margin-bottom: 15px;
+    border: none;
+}
+
+.blog-2 {
+    padding-top: 185px;
+    color: white;
+    font-size: 16px;
+}
+
+.blog-3 {
+    padding-top: 185px;
+    color: white;
+    font-size: 16px;
+}
+
+.cargo-1 {
+    height: 270px;
+}
+
+.cargo-2 {
+    height: 270px;
+}
+
+/* Blog Page Mihul*/
+
+/* .newsletters-main {
+    margin-top: 80px;
+}
+
+.blog-page {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(217, 223, 227, 0.50) 100%);
+    height: auto;
+    position: relative;
+    top: 70px;
+}
+
+.blog-title {
+    color: #333;
+    font-size: 45px;
+    font-weight: 700;
+    position: relative;
+    top: 45%;
+}
+
+.news-sublines {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    top: 43%;
+}
+
+.read-more {
+    color: #FCBB15;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    top: 43%;
+}
+
+.indicate {
+    position: relative;
+    top: 270px;
+    background-color: yellow !important;
+    margin-left: 0px;
+}
+
+.newsletters {
+    border-radius: 32px;
+    background: #29435A;
+    padding: 40px;
+}
+
+.news-letter {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.sub-news-letter {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    width: 80%;
+}
+
+.subscribe-button {
+    border-radius: 10px 5px 5px 10px;
+    background: #FCBB15;
+    position: absolute;
+    left: 51%;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 6px;
+    width: 155px;
+}
+
+.subscribe-button:hover {
+    color: #FFF;
+}
+
+.email-section {
+    height: 44px;
+    background: #D9D9D9;
+    text-indent: 15px;
+    width: 76%;
+}
+
+nav.navbar.bg-body-tertiary.navs {
+    display: block;
+}
+
+.follow {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 9vw;
+}
+
+.follow-sub {
+    color: #FFF;
+    font-size: 16px;
+    width: 70%;
+    margin-left: 9vw;
+}
+
+.follow_icen {
+    border-left: 2px solid;
+    color: #fff;
+}
+
+.social-medias {
+    color: white;
+    font-size: 28px;
+    display: flex;
+    gap: 15px;
+    margin-top: 35px;
+    margin-left: 9vw;
+}
+
+.latest-blogs {
+    margin-top: 80px;
+}
+
+.latest-blog {
+    color: #333;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.cards-sections {
+    background: #29435A;
+    color: #FFF;
+    line-height: normal;
+    margin-bottom: 15px;
+    width: 100%;
+    border: none;
+}
+
+.cards-sections-1 {
+    background: #29435A;
+    color: #FFF;
+    line-height: normal;
+    margin-bottom: 15px;
+    width: 33%;
+    border: none;
+}
+
+.cards-sections1 {
+    color: #29435A;
+    line-height: normal;
+    margin-bottom: 15px;
+    width: 34%;
+    border: none;
+    margin: 5px;
+} */
+
+/* .explore-more-link {
+    color: #FCBB15;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 2%;
+    text-decoration: underline;
+    margin-bottom: 60px;
+}
+
+.explore-link {
+    text-decoration: none;
+}
+
+.sub-press-media {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.subscribe-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.subscribe-section {
+    padding-bottom: 140px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    position: relative;
+}
+
+img.dot-sqr1.sub_new_img {
+    bottom: 58px;
+    left: -10px;
+
+}
+
+img.dot-sqr2.sub_new_img {
+    right: -10px;
+    top: -50px;
+
+}
+
+.subscribe-heading {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.subscribe-lines {
+    color: #FFF;
+    font-size: 16px;
+    margin-top: 4%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.sub_new_img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+.subscribe-bttn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    background: #FCBB15;
+    padding: 10px 80px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.subscribe-bttn:hover {
+    color: #FCBB15;
+    background: #fff;
+    border: 1px solid #FCBB15;
+} */
+
+/* Terms Of Use Mihul*/
+
+.terms-of-use {
+    background-image: url(../image/terms-of-use.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.terms-section {
+    display: flex;
+    align-items: center;
+    margin-top: 41%;
+}
+
+.terms-of-use-icon {
+    width: 5%;
+}
+
+.terms-heading {
+    color: #333;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 1%;
+}
+
+.sub-head {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 27px;
+    margin-top: 1%;
+}
+
+.sub-head-1 {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 27px;
+    margin-top: 1%;
+}
+
+.scope-of-use {
+    color: #333;
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 2%;
+}
+
+.terms-sub-headings {
+    margin-top: 30px;
+}
+
+/* Global Tender Mihul */
+
+.global-tender {
+    background: url(../image/globeImage.png);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: 72%;
+    overflow: hidden;
+    background-position: center;
+}
+
+.global-heading {
+    color: #34495E;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    top: 9vw;
+    line-height: 60px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.input-sections {
+    background: #29435A;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    /* top: -66px; */
+}
+
+.btn-group {
+    margin: 5px;
+}
+
+.buttons {
+    color: #29435A;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.filter-buttons {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    background: #FCBB15;
+    padding: 5px;
+    width: 110px;
+}
+
+.filter-buttons:hover {
+    color: #FCBB15;
+    background-color: #fff;
+}
+
+.g-tenders-heading {
+    color: #000;
+    font-size: 25px;
+    font-weight: 600;
+    /* text-align: center; */
+    padding-top: 35px;
+}
+
+.bttn-actve:hover {
+    color: #FFF;
+}
+
+.bttn {
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+
+.tender-listings {
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.tender-list {
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+    /* padding: 2% 3%; */
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+/* .tenderLink {
+    text-decoration: none;
+} */
+
+.btn_ac {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+    width: 32.8%;
+    border-radius: 10px;
+}
+
+#myDIV {
+    background-color: #f1f1f1;
+    width: 55%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+button.btn_ac.active {
+    background-color: #29435A;
+    color: white;
+    border-radius: 10px;
+}
+
+/* button */
+
+.dropbtn {
+    color: #333333;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {
+    display: block;
+}
+
+/* button-end */
+
+.tender-logo {
+    width: 60%;
+    padding-top: 15px;
+}
+
+.global-tender_img_1 {
+    width: 55%;
+}
+
+.global-tender_img_2 {
+    width: 55%;
+    padding-top: 40px;
+}
+
+.tender_cen {
+    text-align: center;
+}
+
+.location {
+    color: #29435A;
+    font-size: 25px;
+}
+
+.country-name {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.approval-status {
+    border-radius: 22px;
+    background: #29435A;
+    color: #FFF;
+    font-size: 13px;
+    /* font-weight: 600; */
+    /* margin-left: 14px; */
+    text-align: center;
+    padding: 2px;
+    width: 60%;
+}
+
+.approval-status:hover {
+    color: #FFF;
+}
+
+.tenderListings {
+    border-radius: 15px;
+    background: #F9F6F6;
+    margin-top: 2%;
+}
+
+.tender-name {
+    color: #000;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    margin-top: 25px;
+}
+
+.tender-description {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.closing-date {
+    color: #29435A;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.date {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.heartIcon {
+    font-size: 17px;
+    padding-right: 20px;
+}
+
+.followButton {
+    color: #29435A;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid #29435A;
+    background: #FFF;
+    padding: 13px 30px;
+    margin-right: 10px;
+}
+
+.followButton:hover {
+    color: #fff;
+    background: #29435a;
+    border: 1px solid #fff;
+}
+
+.downlButton {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    background: #29435A;
+    padding: 13px 30px;
+    margin-right: 10px;
+}
+
+.downlButton:hover {
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #212529;
+}
+
+.downLoad {
+    font-size: 17px;
+    padding-right: 20px;
+}
+
+.follow-downLoad-bttns {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.navigateMenus {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    background-color: #F9F6F6;
+    border: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+li.page-item {
+    padding: 20px;
+}
+
+.nos {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.no {
+    background-color: #29435A;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.arrows {
+    font-size: 26px;
+}
+
+.report-a-missing-letter {
+    margin-top: 5%;
+}
+
+.missing-report {
+    border-radius: 10px;
+    background: #FCBB15;
+}
+
+.report-missing-button {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    background: #29435A;
+    height: 67px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 8px;
+    width: 100%;
+    margin-right: 3px;
+}
+
+.global-flex-div.glob_icen {
+    padding-top: 35px;
+}
+
+.global-flex-div.glob_icen p {
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 20px;
+    color: #fff;
+}
+
+.global-flex-div.glob_icen i {
+    font-size: 25px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.global_text_page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.global-flex-div {
+    display: flex;
+}
+
+.report-missing-button:hover {
+    color: #34495E;
+    background-color: white;
+    border: 1px solid #34495E;
+}
+
+.faqs {
+    background: url(../image/background-earth.png);
+    background-size: 21%;
+    background-repeat: no-repeat;
+    height: 280px;
+    margin-bottom: 3%;
+}
+
+.accordion {
+    margin-top: 35px;
+}
+
+.faq-heading {
+    color: #333;
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+.accButton {
+    background: #F5F5F5 !important;
+    color: #333 !important;
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+.accButton1 {
+    background: #F5F5F5 !important;
+    color: #333 !important;
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+.tenders {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(217, 223, 227, 0.50) 100%);
+}
+
+.tenderSections {
+    color: #333;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+button.accordion-button.accButton {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    gap: 20px;
+}
+
+button.accordion-button.accButton1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.accordion-button::after {
+    margin-left: inherit;
+}
+
+.tenderCategories {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+img.card-img-top {
+    border-radius: 10px;
+}
+
+.tenderView {
+    text-align: center;
+    font-size: 17px;
+    color: #34495E;
+}
+
+/* Products Categories Mihul */
+
+.product-categories-page_bac {
+    background: url(../image/globeImage.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* height: 800px; */
+    overflow: hidden;
+    /* width: 100%; */
+}
+
+.gappingBackground {
+    padding-top: 100px;
+}
+
+.product_mainHeading {
+    font-size: 25px;
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 600;
+    line-height: 40px;
+    color: #29435A;
+}
+
+.man_div_pro {
+    margin-top: 9vw;
+}
+
+.div_icons {
+    margin-top: 15vw;
+}
+
+.ad_se_g_bac {
+        /* background-color: #fff; */
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+        border-radius: 24px;
+        border: 0.1px solid rgba(0, 0, 0, 0.20);
+        background: linear-gradient(128deg, rgba(224, 224, 224, 0.30) 41.32%, rgba(255, 255, 255, 0.00) 117.04%);
+}
+
+.adhesive_sealants_gu {
+    margin-bottom: 70px;
+}
+
+.ad_se_g_bac p {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.ad_se_g_bac img {
+    /* width: 90%; */
+    margin-top: 10px;
+}
+
+.heading {
+    position: relative;
+    top: 11vw;
+}
+
+.product_categories_div1 {
+    position: relative;
+    top: 17vw;
+}
+
+.product_h p {
+    color: #29435A;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 60px;
+}
+
+.imageCard {
+    width: 83%;
+    margin: 0 auto;
+    margin-top: 7%;
+}
+
+.searchIconforSearch {
+    padding-top: 7px;
+    padding-left: 2%;
+    font-size: 28px;
+}
+
+/**** omprakash yadav***/
+
+.man_div {
+    margin-top: 290px;
+}
+
+.section_top1 {
+    background-color: #FCBB15;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    padding-top: 14px;
+    border-radius: 40px;
+    margin: 0 auto;
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    right: 0px;
+}
+
+.nav_div_btn {
+    background-color: #fff;
+    width: 46%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    border: 2px solid #FCBB15;
+}
+
+.nav_bar_1 {
+    position: relative;
+    top: 10vw;
+    background-color: #E1EBDB;
+}
+
+.nav_div_btn_dro {
+    padding: 5px;
+}
+
+.global_page_shr {
+    position: absolute;
+    top: 20vw;
+    width: 100%;
+}
+
+input.caregory_btn {
+    background-color: #fff;
+    border: 0px solid #fff;
+    font-size: 15px;
+    color: #868E96;
+    width: 60%;
+    text-align: center;
+}
+
+button.search_btn {
+    background-color: #29435a;
+    border-radius: 10px;
+    width: 131px;
+    border: 1px solid #29435A;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    height: 40px;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.section_top1 img {
+    width: 40px;
+}
+
+/* .cloud {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiziBbuYgdLNFQXQj4QmRlJCwLVfFWqsCzgR8M9tQlzlzwWmetdweSkxDzF3ihvPltemc41vrUVUBTkWoYqsp3jvguD9YcguW4AK1pq5G0KVL4zIEh_MhIjQSIaEJMFt-9F-IRtCfdlzRymuTMNYhL21dUhJ5m33IoI-WY2zzKUlRizV7giGAFcVLxYKpw/s1600/00_2284_New_Zealand_Alps_%28aerial_view%29.jpg);
+    background-size: cover;
+}
+
+.cloudcontent {
+    position: relative;
+    padding: 30px;
+    color: #337AB7;
+    font-size: 22px;
+    font-weight: bold;
+    z-index: 100;
+}
+
+@-webkit-keyframes animCloud {
+    from {
+        -webkit-transform: translateX(100%)
+    }
+
+    to {
+        -webkit-transform: translateX(-100%)
+    }
+}
+
+@-moz-keyframes animCloud {
+    from {
+        -moz-transform: translateX(100%)
+    }
+
+    to {
+        -moz-transform: translateX(-100%)
+    }
+}
+
+@keyframes animCloud {
+    from {
+        -webkit-transform: translatey(100%);
+        -moz-transform: translatey(100%);
+        -ms-transform: translatey(100%);
+        -o-transform: translatey(100%);
+        transform: translatey(100%)
+    }
+
+    to {
+        -webkit-transform: translatey(-100%);
+        -moz-transform: translatey(-100%);
+        -ms-transform: translatey(-100%);
+        -o-transform: translatey(-100%);
+        transform: translatey(-100%)
+    }
+}
+
+.cloud1 {
+    -webkit-animation: animCloud 20s infinite linear;
+    -moz-animation: animCloud 20s infinite linear;
+    animation: animCloud 20s infinite linear;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+
+.cloud2 {
+    -webkit-animation: animCloud 40s infinite linear;
+    -moz-animation: animCloud 40s infinite linear;
+    animation: animCloud 40s infinite linear;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+
+.cloud3 {
+    -webkit-animation: animCloud 60s infinite linear;
+    -moz-animation: animCloud 60s infinite linear;
+    animation: animCloud 60s infinite linear;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+
+.cloud4 {
+    -webkit-animation: animCloud 80s infinite linear;
+    -moz-animation: animCloud 80s infinite linear;
+    animation: animCloud 80s infinite linear;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+} */
+
+a.global_t_ic {
+    background-color: #FCBB15;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.nav_gl_icen {
+    margin-top: 14px;
+}
+
+
+.Catalog_bac {
+    border-radius: 10px;
+    background-color: #29435a;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+}
+
+.Catalog_text h3 {
+    color: #fff;
+    padding-left: 24px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.Catalog_text {
+    background-color: #496076;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+.Catalog_text_1 {
+    background-color: #F5F5F5;
+    width: 45%;
+    border-radius: 10px;
+    border: 1px solid #FCBB15;
+    margin: 40px 0px 0px 40px;
+    text-align: center;
+}
+
+.Catalog_text_1 h4 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #FCBB15;
+    margin-top: 25px;
+}
+
+.Catalog_text_1 button {
+    background: #fff;
+    padding: 8px;
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #29435A;
+    margin-bottom: 40px;
+}
+
+.Catalog_text_1 img {
+    width: 70%;
+    margin-top: 40px;
+}
+
+/* Blog Details mihul*/
+
+.blog-detail-imgs {
+    padding-top: 8%;
+}
+
+.blog-heads {
+    padding-bottom: 20px;
+    width: 69%;
+    font-weight: bold;
+}
+
+.blog-picture {
+    width: 100%;
+    border-radius: 10px;
+    width: 62%;
+}
+
+.imp-headlines {
+    color: #000;
+    font-size: 16px;
+    padding-top: 2%;
+    width: 65%;
+}
+
+/* .sub-headlines {
+    padding-bottom: 3%;
+} */
+
+.blog-date-place {
+    color: #37474F;
+    font-size: 18px;
+    font-style: italic;
+    padding-top: 3%;
+}
+
+.blogSubheadings {
+    color: #000;
+    font-size: 16px;
+    width: 65%;
+}
+
+.blogss {
+    width: 100%;
+    border-radius: 21px;
+}
+
+.lines {
+    color: #000;
+    font-size: 16px;
+    /* text-align: center; */
+    padding-top: 2%;
+    width: 65%;
+}
+
+.explore-more-blogs {
+    color: #333;
+    font-family: Microsoft YaHei UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.explore-section {
+    padding-top: 3%;
+}
+
+/* .card-text:last-child {
+    margin-bottom: 20px;
+    font-size: 16px;
+} */
+
+.explor-bttn {
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.view-more {
+    background-color: #29435A;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 5%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.Catalog_pages {
+    background: url(../image/Catalog_pages-bac.png);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.Frame_pages {
+    /* background: url(../image/Catalog_pages-bac.png); */
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+
+}
+
+.Frame_pages_text {
+    /* background-color: #29435A; */
+    border-radius: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.Frame_text {
+    /* background-color: #496076; */
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 25px;
+}
+
+.Frame_text h3 {
+    color: #000;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.A_text h5 {
+    color: #FCBB15;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+.accelerators_text a {
+    color: #333;
+    font-size: 24px;
+}
+
+.productCats {
+    color: #333;
+    font-size: 24px;
+    margin-left: 6%;
+}
+
+.accelerators_last button {
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 25px;
+    width: 25%;
+    margin-top: 30px;
+}
+
+/* company-profile */
+
+.Company_pages_background {
+    background: url(../image/Company_pages_background.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 55vw;
+}
+
+.Print_feed {
+    text-align: end;
+    margin-top: 100px;
+}
+
+.Print_feed h6 {
+    font-size: 16px;
+}
+
+.profile_nav_bar_1 {
+    position: relative;
+    top: 4vw;
+    background-color: #EEF3F3;
+}
+
+.apple_text {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.apple_btn {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.apple_text h3 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #29435A;
+    margin-bottom: 30px;
+}
+
+span.man_text {
+    font-size: 20px;
+    color: #29435A;
+}
+
+.apple_text span {
+    margin: 20px;
+    font-size: 20px;
+    color: #29435A;
+}
+
+.apple_btn button {
+    background-color: #29435A;
+    border: 1px solid #29435A;
+    color: #fff;
+    padding: 8px;
+    width: 13%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.claim_manage {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.claim_manage h5 {
+    font-size: 23px;
+    font-weight: 600;
+    color: #29435A;
+}
+
+.claim_manage h6 {
+    font-size: 23px;
+    font-weight: 600;
+    color: #29435A;
+    margin-left: 20px;
+}
+
+.Profile_slider_btn {
+    padding-top: 60px;
+}
+
+.btnn_Profile {
+    background-color: #29435A;
+    color: #fff;
+    width: 310px;
+    height: 50px;
+    padding-top: 12px;
+    margin: 5px;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.btnn_Profile:hover {
+    background-color: #29435A;
+    color: #fff;
+}
+
+.btnn_Additional {
+    background-color: #29435A;
+    color: #fff;
+    width: 310px;
+    height: 50px;
+    padding-top: 12px;
+    margin: 5px;
+}
+
+button.Certifications_btn {
+    width: 310px;
+    height: 50px;
+    border: 0px solid #29435A;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    margin: 5px;
+    background-color: #29435A;
+    opacity: 0.9;
+}
+
+button.Contact_btnn {
+    width: 310px;
+    height: 50px;
+    border: 0px solid #29435A;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 0px 30px 30px 0px;
+    margin: 5px;
+    background-color: #29435A;
+    opacity: 0.9;
+}
+
+.cProfile {
+    display: flex !important;
+    justify-content: center;
+}
+
+.business_description {
+    position: relative;
+    top: -28px;
+    margin: 0 auto;
+    background-color: #29435A;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.business_description h3 {
+    color: #FCBB15;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.business_description h4 {
+    color: #fff;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.business_description p {
+    color: #fff;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.Products_Service_Offered_bac {
+    background-color: #29435A;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+button.Categories_btnn {
+    width: 40%;
+    padding: 8px;
+    border-radius: 30px 0px 0px 30px;
+    border: 1px solid #FCBB15;
+    background-color: #FCBB15;
+    color: #fff;
+}
+
+button.Brands_Carried_btnn {
+    width: 40%;
+    padding: 8px;
+    border-radius: 0px 30px 30px 0px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #000;
+}
+
+.Products_Service_Offered_text h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #FCBB15;
+}
+
+.Products_Service_Offered_text h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.Products_Service_Offered_text h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #FCBB15;
+    margin-bottom: 30px
+}
+
+.Products_Service_Offered_text li {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.Products_Service_Offered_text p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.Products_Service_Offered_text p span {
+    font-size: 16px;
+    font-weight: 200;
+    padding-left: 10px;
+}
+
+button.registration_certification_available {
+    background-color: #FCBB15;
+    padding: 8px;
+    width: 70%;
+    border-radius: 10px;
+    border: 1px solid #FCBB15;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button.sign_to_view {
+    width: 50%;
+    background-color: #FCBB15;
+    border: 1px solid #FCBB15;
+    padding: 8px;
+    border-radius: 10px;
+    color: #fff;
+    margin-bottom: 103px;
+}
+
+.this_Your_company{
+    background-color: #29435A;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.this_Your_company h3 {
+    color: #FCBB15;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.this_Your_company p {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    font-family:Open Sans;
+}
+
+button.claim_your_company_btnn {
+    width: 25%;
+    padding: 8px;
+    border-radius: 10px;
+    color: #000;
+    border: 1px solid #fff;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.free_supplier_summary_report h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+button.request_report_btnn {
+    background-color: #29435A;
+    border: 1px solid #29435A;
+    padding: 8px;
+    width: 30%;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.free_supplier_summary_report li {
+    padding-bottom: 10px;
+}
+
+.free_supplier_summary_report img {
+    width: 80%;
+}
+
+.free_supplier_text_div_2 {
+    margin-top: 100px;
+}
+
+.additional_information_text h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #29435A;
+    margin-top: 50px;
+}
+
+.additional_information_text p {
+    font-size: 20px;
+    color: #29435A;
+    margin-top: 50px;
+}
+
+.Catalog_covers_bac {
+    background-color: #F5F5F5;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.Catalog_covers_text h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #29435A;
+    padding-top: 40px;
+}
+
+.Catalog_covers_text p {
+    font-size: 18px;
+    color: #29435A;
+}
+
+button.view_now {
+    background-color: #29435A;
+    width: 35%;
+    padding: 8px;
+    border-radius: 10px;
+    color: #fff;
+    border: 1px solid #29435A;
+}
+
+.Catalog_covers_bac img {
+    height: 200px;
+}
+
+.back_div_last h5 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* slider-img */
+
+.c-images {
+    width: 55%;
+}
+
+.news-headlines {
+    color: #333;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center !important;
+    margin-left: 19%;
+}
+
+.news-contexts {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 52%;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-left: 35%;
+    list-style: none;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 55px;
+    height: 7px;
+    background-color: #FCBB15;
+}
+
+.read-more {
+    color: #FCBB15;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    top: 43%;
+    left: 52%;
+}
+
+/* slider-img-end */
+
+/* Global Tender Inside Mihul */
+
+.global-tender-inside {
+    background: url(../image/global-tender-inside.png);
+    height: 900px;
+}
+
+.tender-listings-inside {
+    border-bottom: 1px solid black;
+    margin-bottom: 2%;
+}
+
+.overviewBtn {
+    color: #FCBB15;
+    font-size: 30px;
+}
+
+.documentsBtn {
+    color: #282828;
+    font-size: 30px;
+}
+
+.docsSection {
+    border-radius: 32px;
+    background: #F9F6F6;
+    margin-bottom: 2%;
+}
+
+.docsTitle {
+    color: #282828;
+    font-size: 20px;
+    padding-left: 4%;
+    padding-top: 2%;
+}
+
+.borderbuttomLine {
+    border-bottom: 1px solid black;
+}
+
+.docsDetails {
+    color: #34495E;
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 4%;
+    padding-top: 2%;
+}
+
+.docsDetails-1 {
+    color: #34495E;
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 12%;
+    padding-top: 2%;
+}
+
+.docServices {
+    color: #000;
+    font-size: 20px;
+}
+
+.docsDescriptions {
+    text-align: justify;
+    padding-left: 4%;
+    width: 96%;
+    font-size: 20px;
+}
+
+.signupCont {
+    position: relative;
+}
+
+.blurContext {
+    filter: blur(6px);
+}
+
+.unlockTender {
+    border-radius: 32px;
+    background: #29435A;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    z-index: 1;
+    padding: 20px;
+}
+
+.unlocked {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-left: 20%;
+}
+
+.unlockText {
+    color: #FFF;
+    font-size: 20px;
+    margin-top: 5%;
+}
+
+.signedInBtn {
+    border-radius: 7.903px;
+    background: #FCBB15;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 39px;
+    margin-top: 8px;
+}
+
+.signedInBtn:hover {
+    color: #FCBB15;
+    background: white;
+    border: 1px solid #FCBB15;
+}
+
+.pricingDownloadbttn-1 {
+    border-radius: 15px;
+    background: #FBDF9B;
+    color: #282828;
+    font-size: 18px;
+    padding: 6px 21px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.pricingDownloadbttn-1:hover {
+    color: #212529;
+    background: white;
+    border: 1px solid #FBDF9B;
+}
+
+.pricingDownloadbttn-2 {
+    border-radius: 15px;
+    background: #29435A;
+    color: #ffff;
+    font-size: 18px;
+    padding: 6px 21px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.pricingDownloadbttn-2:hover {
+    color: #212529;
+    background: white;
+    border: 1px solid #212529;
+}
+
+.downL {
+    color: #29435A;
+    font-size: 20px;
+}
+
+.globeIcon {
+    font-size: 45px;
+    color: #29435A;
+    margin-left: 45%;
+    margin-top: 10%;
+}
+
+.dlButton {
+    font-size: 35px;
+    margin-top: 6%;
+    color: #FCBB15;
+}
+
+.dlButton-1 {
+    color: #000;
+    font-size: 18px;
+}
+
+.searching {
+    font-size: 31px;
+}
+
+.share {
+    padding-right: 18px;
+}
+
+/* Global Tender Inside ends Mihul */
+
+/* Brand Name Results Mihul */
+
+.inputSections {
+    display: flex;
+    border-radius: 15px;
+    background: #29435A;
+    padding: 13px 28px;
+    width: 87%;
+}
+
+.inputArea {
+    background: white;
+    font-size: 15px;
+    padding: 8px;
+    margin-top: 1%;
+}
+
+.dropdownButtons {
+    margin-top: 1%;
+}
+
+.brandname-section {
+    margin-top: 5%;
+}
+
+.brandname {
+    border-radius: 32px;
+    background: #F5F5F5;
+    margin-bottom: 2%;
+}
+
+.productsName {
+    color: #34495E;
+    font-size: 25px;
+    margin-left: 38px;
+    margin-top: 2%;
+}
+
+.saveBtn {
+    font-size: 23px;
+    margin-top: 9%;
+}
+
+.bookmarkIcon {
+    color: #34495E;
+    padding-right: 12px;
+}
+
+.mapMarker {
+    margin-left: 3%;
+    font-size: 21px;
+}
+
+.locationName {
+    font-size: 20px;
+}
+
+.context1 {
+    width: 93%;
+    margin-left: 3%;
+    font-size: 15px;
+}
+
+.brandsTypes {
+    color: #34495E;
+    font-size: 26px;
+}
+
+.buttonArea {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+
+.contactSupplierBtn {
+    background: #29435A;
+    color: #FFF;
+    font-size: 15.539px;
+    border-radius: 10px;
+    padding: 10px 28px;
+    margin-right: 1%;
+}
+
+.contactSupplierBtn:hover {
+    background: #f5f5f5;
+    color: #29435A;
+    border-radius: 10px;
+    border: 1px solid #29435A;
+}
+
+.requestInformationBtn {
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px 28px;
+    border: 1px solid #29435A;
+}
+
+.requestInformationBtn:hover {
+    color: #fff;
+    background: #212529;
+    border: 1px solid #fff;
+}
+
+/* Brand Name Results end Mihul */
+
+/* RFQ Page Mihul */
+
+.rfqPage {
+    background-image: url(../image/rfq.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 700px;
+}
+
+.rfqHeading {
+    color: #282828;
+    padding-top: 7%;
+    padding-left: 4%;
+    font-size: 37px;
+    font-weight: 600;
+}
+
+.duration {
+    color: #282828;
+}
+
+.totalProducts {
+    color: #000;
+    font-size: 23px;
+    padding-left: 4%;
+    width: 65%;
+}
+
+.blurSections {
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.50);
+    width: 30%;
+}
+
+.facilities {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.servicesAvail {
+    color: #282828;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 4%;
+    font-size: 20px;
+}
+
+.serviceDetails {
+    text-align: center;
+}
+
+.get-request_form {
+    background-color: #29435A;
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+    top: -100px;
+}
+
+.getStart {
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+}
+
+.inputSections {
+    background: white;
+    width: 100%;
+}
+
+.locked {
+    font-size: 19px;
+    padding-right: 16px;
+}
+
+.termsPrivacy {
+    color: white;
+}
+
+.startToday {
+    border-radius: 8px;
+    background: #FCBB15;
+    padding: 9px 40px;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.starttodayButton {
+    display: flex;
+    justify-content: center;
+}
+
+.imp {
+    color: red;
+}
+
+.subcreateProfile {
+    width: 95%;
+    font-size: 21px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 15%;
+}
+
+.backgWorld {
+    background: url(../image/background-earth.png);
+    background-repeat: no-repeat;
+    background-size: 45%;
+}
+
+.selectedCatogories {
+    color: rgba(40, 40, 40, 0.60);
+    font-size: 20px;
+}
+
+.getQuotes {
+    color: #282828;
+    font-size: 35px;
+}
+
+.companiesName {
+    margin-top: 3%;
+}
+
+.trustCompanies {
+    color: #FCBB15;
+    font-size: 35px;
+}
+
+.trustComp {
+    margin-top: 11%;
+    color: #000;
+    font-size: 18px;
+}
+
+.companiesName img {
+    width: 13%;
+    margin-left: 5%;
+}
+
+.companiesName img {
+    width: 14%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+img.appleIcon {
+    width: 8%;
+}
+
+.subsRFQ {
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+/* rdq ends Mihul */
+
+/* Index2 Css Mihul */
+
+.know-about-usp2 {
+    border-radius: 32px;
+    background-color: rgb(41, 67, 90);
+    z-index: 1;
+    position: relative;
+}
+
+.usp2 {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    border-radius: 50px 0px 0px 50px;
+    padding-top: 151px;
+    width: 24%;
+}
+
+.bac-home {
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+}
+
+.home_know_usp2 {
+    width: 30%;
+}
+
+.borderLine p {
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 15px;
+    width: 100%;
+    height: 169px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.paraSection {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+
+.gappingSection {
+    margin-top: 2%;
+}
+
+.supplyChain {
+    position: absolute;
+    left: 32%;
+    width: 38%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+/* Index2 Css Mihul */
+
+/* slider-about */
+
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+}
+
+/* Slides */
+.mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    text-decoration: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.slider_about_1 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.slider_about_1 img {
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+span.span_text_slider {
+    display: flex;
+    width: 68%;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.slider_about_1 q {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+/* slider-about-end */
+
+
+/* brand_name */
+.brand_name_results_div_2 {
+    display: flex;
+}
+
+.d-flex-div-2 {
+    display: flex;
+    background-color: #29435A;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.inp_ema_1 {
+    height: 50px;
+    background-color: #fff;
+    width: 50%;
+    margin: 5px;
+}
+
+.inp_ema_2 {
+    height: 50px;
+    background-color: #fff;
+    width: 25%;
+    margin: 5px;
+}
+
+.btn_brand_name_1 {
+    background-color: #fff;
+    height: 50px;
+}
+
+.btn_brand_name {
+    background-color: #fff;
+    height: 50px;
+}
+
+.btn-group.btn_bra_btn {
+    margin: 5px;
+}
+
+.btn-group.btn_bra_btn_2 {
+    margin: 5px;
+}
+
+button.search_btn_brand_but {
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #FCBB15;
+    background-color: #FCBB15;
+    color: #fff;
+    margin: 5px;
+}
+
+.btn-group.btn_bra_btn_3 {
+    width: 92%;
+}
+
+.btn_brand_5 {
+    width: 80%;
+    background-color: #29435A;
+    height: 79px;
+    border-radius: 10px;
+}
+
+button.btn.btn_brand_name_3 {
+    height: 68px;
+    background-color: #29435A;
+    color: #fff;
+}
+/* brand-name-end */
+
+/* Pricing Page Css Mihul Starts */
+.guranteedValueSections {
+    padding-top: 8%;
+    text-align: center;
+}
+
+.guranteedLine {
+    color: #29435A;
+    text-align: center;
+    font-size: 37px;
+    font-weight: 700;
+    position: relative;
+    top: 65px;
+}
+
+.latestSupplier {
+    color: #FCBB15;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    position: relative;
+    top: 65px;
+}
+
+.priceSections {
+    background: url(../image/globeImage.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.prices {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15%;
+}
+
+.price1 {
+    border-radius: 32px;
+    border: 1px solid #FCBB15;
+    background: #FFF;
+    padding: 40px;
+}
+
+.price2 {
+    border-radius: 32px;
+    border: 1px solid #29435A;
+    background: #29435A;
+    padding: 40px;
+}
+
+.price3 {
+    border-radius: 32px;
+    border: 1px solid #FCBB15;
+    background: #FFF;
+    padding: 40px;
+}
+
+.amount {
+    color: #252525;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 5%;
+}
+
+.perMonth {
+    font-size: 16px;
+}
+
+.amount2 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 5%;
+}
+
+.perMonth2 {
+    font-size: 16px;
+}
+
+.categoriesPlan {
+    border-radius: 16px;
+    background: rgba(252, 187, 21, 0.80);
+    width: 30%;
+    text-align: center;
+    padding: 8px;
+    color: #252525;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.categoriesPlan2 {
+    border-radius: 16px;
+    background: #fff;
+    width: 30%;
+    text-align: center;
+    padding: 8px;
+    color: #252525;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.buyButtons {
+    text-align: center;
+}
+
+.buyPlanButton {
+    border-radius: 15px;
+    background: #29435A;
+    color: #fff;
+    padding: 10px 25px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+.buyPlanButton:hover {
+    background: #fff;
+    color: #29435A;
+    border: 1px solid #29435A;
+}
+
+.buyPlanButton1 {
+    border-radius: 15px;
+    background: #fff;
+    color: #FCBB15;
+    padding: 10px 25px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+.buyPlanButton1:hover {
+    background: #29435A;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.features {
+    margin-top: 6%;
+    margin-bottom: 4%;
+}
+
+.featuresofPricing {
+    font-weight: 600;
+}
+
+ul.featuresList {
+    line-height: 37px;
+    font-size: 20px;
+}
+/* Pricing Page Css Mihul Ends */
+
+/* BlogNew Page Css Mihul Starts */
+.blogwithImgText {
+    padding-top: 8%;
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: unset;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    border-radius: calc(0.25rem - 1px);
+    color: #fff;
+    width: 75%;
+}
+
+.relatedBlogsSections {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.cardSectio {
+    margin-bottom: 20px;
+    border: 0.5px solid rgba(0, 0, 0, 0.20);
+    background: linear-gradient(128deg, rgba(224, 224, 224, 0.30) 41.32%, rgba(255, 255, 255, 0.00) 117.04%);
+}
+
+.loadMoreButton {
+    text-align: center;
+}
+
+.loadMoreButtn {
+    border-radius: 5px;
+    background: #29435A;
+    width: 20%;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.publishDate {
+    padding-left: 10%;
+}
+
+.blogCardsHeading {
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+
+.recentBlogHeadingline {
+    padding-bottom: 2%;
+}
+/* BlogNew Page Css Mihul Ends */
+
+/* CompanyProfile New Page Mihul Starts*/
+.companyProfileSection {
+    padding-top: 8%;
+}
+
+h2.companyHeadingProfile {
+    padding-bottom: 1%;
+}
+
+.profileBackg {
+    border-radius: 15px;
+    background: #F5F5F5;
+}
+
+.listsofCatagories {
+    border-radius: 15px;
+    background: #F5F5F5;
+    padding: 15px;
+    margin-top: 2%;
+    padding-left: 50px;
+}
+
+.listsofCatagories h4 {
+    color: #34495E;
+    font-size: 29px;
+    font-weight: 600;
+    padding-bottom: 3%;
+}
+
+li.catsLinks {
+    color: #333;
+    font-size: 25px;
+    line-height: 36px;
+}
+
+a.catsLink {
+    color: #333;
+    font-size: 22px;
+}
+
+p.typeHeading {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+p.typeSubhead {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.iconsSocialMedia {
+    padding-right: 3rem;
+    font-size: 18px;
+}
+
+.socialLinksArea {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 4px;
+}
+
+.signInSections {
+    text-align: center;
+}
+
+.moreDetails {
+    color: #34495E;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 3%;
+}
+
+.viewSignIn {
+    border-radius: 15px;
+    background: #FCBB15;
+    width: 29%;
+    padding: 8px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 2%;
+}
+
+.hrLineSVG {
+    margin-top: 30px;
+}
+
+.companyNameHere {
+    color: #34495E;
+    font-size: 29px;
+    font-weight: 600;
+    padding-top: 3%;
+}
+
+.companyType {
+    color: #333;
+    font-size: 18px;
+}
+
+.companyType-2 {
+    color: #333;
+    font-size: 18px;
+    margin-left: 4%;
+}
+
+.companyDesc {
+    width: 80%;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+img.productLogo {
+    width: 64%;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+
+.globeImageFreeSupplier {
+    background-image: url(../image/background-earth.png);
+    background-size: 44%;
+    background-repeat: no-repeat;
+    height: 364px;
+}
+
+p.freeReport {
+    font-size: 24px;
+    margin-left: 9%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+span.freeText {
+    font-weight: bold;
+}
+
+.reportLists {
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-left: 9%;
+}
+
+.freeSupplierSections {
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.free-Supplierheading {
+    margin-bottom: 2%;
+    margin-left: 7%;
+    color: #333;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.freesupplierImage {
+    text-align: center;
+}
+
+.requestbuttondiv {
+    margin-left: 9%;
+    margin-top: 3%;
+}
+
+.requestReportButton {
+    border-radius: 11.083px;
+    background: #29435A;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    width: 30%;
+    padding: 10px;
+}
+/* CompanyProfile New Page Mihul Ends*/
+
+/* Media Query */
+@media screen and (max-width: 1200px) {
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #333333;
+        font-size: 13px;
+    }
+
+    li.nav-item {
+        padding: 0px;
+    }
+
+    .login_btn {
+        width: 100px;
+    }
+
+    .register_btn {
+        width: 100px;
+    }
+
+    .nav_div_btn {
+        background-color: #fff;
+        width: 65%;
+    }
+
+    .informations-second {
+        margin-bottom: 20px;
+    }
+
+    .usp2 {
+        padding-top: 85px;
+    }
+
+    .usp {
+        color: #29435A;
+        width: 66%;
+        top: 299px;
+        left: 282px;
+    }
+
+    .man_div {
+        margin-top: 240px;
+    }
+
+    .icen_but_f span i {
+        margin: 2px;
+    }
+
+    .subscribe-button {
+        left: 40%;
+    }
+
+    .indicate {
+        top: 150px;
+    }
+
+    .blog-title {
+        top: 40%;
+    }
+
+    .news-sublines {
+        top: 38%;
+    }
+
+    .read-more {
+        top: 35%;
+    }
+
+    .sho_01 p {
+        position: relative;
+        top: -10vw;
+        left: 12vw;
+    }
+
+    .sho_02 p {
+        position: relative;
+        top: -9vw;
+        left: 10vw;
+    }
+
+    .sho_02 {
+        margin-left: 10vw;
+        margin-top: -55px;
+    }
+
+    .showcase_business img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #myDIV {
+        width: 66%;
+    }
+
+    .carousel-indicators {
+        position: absolute;
+        left: 60px;
+    }
+
+    .news-headlines {
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 15px;
+    }
+
+    .login_btn {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    img.header_logo {
+        width: 150px;
+    }
+
+    .register_btn {
+        width: 100%;
+    }
+
+    .dropdown-item:focus,
+    .dropdown-item {
+        font-size: 12px;
+    }
+
+    .mainHeading {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    li.nav-item {
+        padding-left: 0px;
+    }
+
+    .double-chevron {
+        top: 45vw;
+    }
+
+    .detail-supplyme {
+        font-size: 25px;
+    }
+
+    .sub-detail-supplyme {
+        font-size: 16px;
+    }
+
+    .sections {
+        margin-top: 15px;
+    }
+
+    .usp {
+        top: 298px;
+        left: 280px;
+    }
+
+    .section-para {
+        font-size: 20px;
+        padding-top: 45px;
+    }
+
+    .indicate {
+        top: 135px;
+    }
+
+    .blog-title {
+        top: 40%;
+    }
+
+    .news-sublines {
+        top: 35%;
+    }
+
+    .read-more {
+        top: 32%;
+    }
+
+    .subscribe-button {
+        left: 40%;
+    }
+
+    .buttons {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .icen_but_f span i {
+        margin: 3px;
+    }
+
+    .contact_text {
+        top: 100px;
+    }
+
+    .contactPage {
+        height: 476px;
+    }
+
+    .global-heading {
+        top: 13vw;
+        width: 86%;
+    }
+
+    .about_me {
+        top: 45vw;
+    }
+
+    .blog-1 {
+        font-size: 16px;
+    }
+
+    .blog-2 {
+        font-size: 16px;
+    }
+
+    .blog-3 {
+        font-size: 16px;
+    }
+
+    .card.text-bg-overlay {
+        margin-top: 10px;
+    }
+
+    .about_supplyMe button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .mainHeading_about {
+        margin-top: 140px;
+    }
+
+    .about_banner_text h5 {
+        font-size: 18px;
+    }
+
+    .about_supplyMe {
+        margin-top: 25px;
+    }
+
+    .global_page_shr {
+        top: 27vw;
+    }
+
+    .global-tender {
+        background: url(../image/global-tender-main.png);
+        height: 477px;
+    }
+
+    .toggle-menus {
+        width: 60%;
+    }
+
+    .report-finder p {
+        padding-top: 38px;
+        font-size: 16px;
+    }
+
+    .report-missing-button {
+        width: 280px;
+    }
+
+    .about_Business {
+        width: 230px;
+        height: 230px;
+    }
+
+    .about_div_1 {
+        width: 90%;
+    }
+
+    .company_profile_text h3 {
+        font-size: 30px;
+    }
+
+    .company_profile_text button {
+        padding: 7px 5px 7px 5px;
+    }
+
+    img.conn_buy {
+        width: 100%;
+    }
+
+    .div-flex {
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .success_stories_slider h3 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+
+    .sli_bac1_div {
+        width: 85%;
+        height: auto;
+    }
+
+    .success_stories_slider_to1 {
+        height: auto;
+    }
+
+    .sho_01 p {
+        position: relative;
+        top: -12vw;
+        left: 13vw;
+    }
+
+    .sho_02 p {
+        position: relative;
+        top: -12vw;
+        left: 13vw;
+    }
+
+    .news-headlines {
+        margin-left: 26%;
+    }
+
+    .carousel-indicators {
+        margin-left: 35%;
+    }
+
+    .product_mainHeading {
+        width: 67%;
+    }
+
+    .ad_se_g_bac {
+        height: 25vw;
+    }
+
+    .about_banner_text h5 {
+        padding: 0px 50px 0px 50px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .mainHeading_about p {
+        width: 75%;
+    }
+    
+    img.productLogo {
+        width: 68%;
+        margin-left: 2rem;
+        margin-top: 4rem;
+    }
+
+    .companyType {
+        font-size: 15px;
+    }
+
+    .companyType-2 {
+        font-size: 15px;
+    }
+
+    .companyDesc {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    p.typeHeading {
+        font-size: 14px;
+    }
+
+    p.typeSubhead {
+        font-size: 14px;
+    }
+
+    .listsofCatagories h4 {
+        font-size: 24px;
+    }
+
+    h2.companyHeadingProfile {
+        padding-bottom: 2%;
+        padding-top: 2%;
+    }
+
+    .viewSignIn {
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 2%;
+        width: 47%;
+    }
+
+    a.catsLink {
+        font-size: 20px;
+    }
+
+    li.catsLinks {
+        font-size: 25px;
+        line-height: 31px;
+    }
+
+    .requestReportButton {
+        font-size: 17px;
+        font-weight: 700;
+        width: 46%;
+    }
+
+    .free-Supplierheading {
+        font-size: 26px;
+    }
+
+    p.freeReport {
+        font-size: 22px;
+    }
+
+    .reportLists {
+        font-size: 22px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .companyType {
+        font-size: 12px;
+    }
+
+    .companyType-2 {
+        font-size: 12px;
+    }
+
+    .companyDesc {
+        width: 90%;
+        font-size: 12px;
+    }
+
+    p.typeSubhead {
+        font-size: 12px;
+    }
+
+    p.typeHeading {
+        font-size: 12px;
+    }
+
+    .iconsSocialMedia {
+        padding-right: 1rem;
+        font-size: 16px;
+    }
+
+    .socialLinksArea {
+        font-size: 16px;
+        padding-top: 3px;
+    }
+
+    .listsofCatagories h4 {
+        font-size: 17px;
+    }
+
+    li.catsLinks {
+        font-size: 17px;
+        line-height: 32px;
+    }
+
+    a.catsLink {
+        font-size: 15px;
+    }
+
+    .moreDetails {
+        font-size: 22px;
+        margin-top: 9%;
+    }
+
+    .viewSignIn {
+        font-size: 16px;
+        margin-top: 7%;
+        width: 54%;
+    }
+    
+    .listsofCatagories {
+        margin-top: 2%;
+        padding-left: 30px;
+    }
+
+    .companyNameHere {
+        font-size: 24px;
+    }
+
+    .reportLists {
+        font-size: 18px;
+        line-height: 31px;
+    }
+
+    h2.companyHeadingProfile {
+        padding-bottom: 2%;
+        padding-top: 2%;
+        font-size: 24px;
+    }
+
+    .free-Supplierheading {
+        margin-left: 4%;
+    }
+
+    .globeImageFreeSupplier {
+        background-size: 70%;
+    }
+
+    .mainHeading {
+        font-size: 19px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 15px;
+    }
+
+    .dropdown-item:focus,
+    .dropdown-item {
+        font-size: 15px;
+    }
+
+    .blog-1 {
+        font-size: 16px;
+        padding-top: 60%;
+        line-height: 25px;
+    }
+
+    .blog-2 {
+        padding-top: 155px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .blog-3 {
+        padding-top: 155px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .usp {
+        top: 244px;
+        left: 209px;
+    }
+
+    .news-sublines {
+        top: 23%;
+    }
+
+    .blog-title {
+        top: 29%;
+    }
+
+    .blog-title {
+        font-size: 35px;
+        top: 28%;
+    }
+
+    .read-more {
+        top: 20%;
+    }
+
+    .indicate {
+        top: 60px;
+    }
+
+    .subscribe-button {
+        left: 50%;
+    }
+
+    li.page-item {
+        padding: 10px;
+    }
+
+    .toggle-menus {
+        width: 100%;
+    }
+
+    .contact_text {
+        top: 25px;
+    }
+
+    .contact_icen a {
+        font-size: 18px;
+    }
+
+    .contact_icen i {
+        font-size: 22px;
+    }
+
+    .contactPage {
+        height: 357px;
+    }
+
+    .explore-bttn {
+        margin-left: 34%;
+    }
+
+    .email-section {
+        width: 100%;
+    }
+
+    .company_profile_text button {
+        padding: 0px 0px 0px 0px;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .profile_background p {
+        color: #fff;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+
+    .profile_background h4 {
+        font-size: 15px;
+        font-weight: 600;
+        color: #fff;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .across_generations h3 {
+        font-size: 30px;
+        color: #29435A;
+        font-weight: 700;
+    }
+
+    .showcase_business h3 span {
+        font-size: 30px;
+    }
+
+    .showcase_business h3 {
+        font-size: 30px;
+    }
+
+    .sho_01 p {
+        position: relative;
+        top: -16vw;
+        left: 18vw;
+    }
+
+    .sho_02 p {
+        position: relative;
+        top: -15vw;
+        left: 17vw;
+    }
+
+    .news-headlines {
+        margin-left: 32%;
+    }
+
+    .carousel-indicators {
+        margin-left: 41%;
+        top: 250px;
+    }
+
+    #myDIV {
+        width: 85%;
+    }
+
+    .product_mainHeading {
+        width: 100%;
+    }  
+}
+
+@media screen and (max-width: 767px) {
+    h2.companyHeadingProfile {
+        padding-bottom: 2%;
+        padding-top: 15%;
+        font-size: 24px;
+    }
+
+    .companyType-2 {
+        font-size: 16px;
+    }
+
+    p.typeHeading {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    p.typeSubhead {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    
+    .companyNameHere {
+        font-size: 28px;
+        margin-left: 10px;
+    }
+
+    .companyType {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .companyDesc {
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+    .listsofCatagories {
+        padding-left: 19px;
+    }
+
+    .free-Supplierheading {
+        margin-left: 4%;
+        margin-bottom: 7%;
+        margin-top: 5%;
+    }
+
+    img.productLogo {
+        width: 42%;
+        margin-left: 7rem;
+        margin-top: 2rem;
+    }
+    
+    .mainHeading {
+        font-size: 15px;
+    }
+
+    .lists {
+        top: 32%;
+        gap: 10px;
+    }
+
+    li.list {
+        padding-right: 0%;
+        font-size: 20px;
+    }
+
+    span.list_text {
+        font-size: 14px;
+    }
+
+    .usp {
+        top: 100px;
+        left: 65px;
+        font-size: 18px;
+        width: 60%;
+    }
+
+    .section {
+        margin-bottom: 50px;
+    }
+
+    .subscribe-button {
+        left: 64%;
+    }
+
+    li.page-item {
+        padding: 0px;
+    }
+
+    .bttn {
+        color: #333;
+        font-size: 18px;
+        font-weight: 400;
+        margin-left: 0px;
+    }
+
+    .tender-menus {
+        color: #333;
+        font-size: 18px;
+        font-weight: 400;
+        margin-left: 0px;
+    }
+
+    .bttn-actve {
+        padding: 5px 5px;
+    }
+
+    .accordion {
+        margin-top: 20px;
+    }
+
+    .faq-heading {
+        padding-top: 22px;
+    }
+
+    .faqs {
+        background-size: 70%;
+    }
+
+    .contact_text {
+        top: 15px;
+    }
+
+    .contact_text h2 {
+        font-size: 25px;
+        ;
+    }
+
+    .contact_text p {
+        font-size: 15px;
+        line-height: 20px;
+        width: 100%;
+    }
+
+    button.form_btn {
+        margin-top: 17px;
+        margin-bottom: 25px;
+    }
+
+    .contact_form img {
+        height: auto;
+    }
+
+    .contactPage {
+        height: 198px;
+    }
+
+    .contact_form p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .contact_form {
+        width: 80%;
+        top: -50px;
+    }
+
+    .contact_form h3 {
+        font-size: 30px;
+    }
+
+    .global-heading {
+        top: 55vw;
+        font-size: 30px;
+        line-height: 41px;
+        width: 100%;
+    }
+
+    .approval-status {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    .about-supplyme {
+        font-size: 30px;
+    }
+
+    .detail-supplyme {
+        font-size: 19px;
+    }
+
+    .about_me {
+        top: 45vw;
+        height: 115vw;
+    }
+
+    .sections {
+        margin-top: 250px;
+    }
+
+    .explore-bttn {
+        text-align: center;
+    }
+
+    .informations {
+        margin-top: 0px;
+    }
+
+    .learn-more-bttn {
+        margin-bottom: 30px;
+    }
+
+    .video-play_img_home {
+        margin-top: 0px;
+    }
+
+    .informations-second {
+        top: 190px;
+    }
+
+    .learn-more-bttn-1 {
+        margin-bottom: 20px;
+    }
+
+    .usp {
+        top: 100px;
+        left: 39px;
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .usp-nos {
+        margin-top: 0%;
+    }
+
+    .video-play {
+        width: 79%;
+        padding-top: 0%;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .blog-1 {
+        padding-top: 70%;
+    }
+
+    .blog-2 {
+        padding-top: 185px;
+    }
+
+    .blog-3 {
+        padding-top: 185px;
+    }
+
+    .report-finder p {
+        text-align: center;
+    }
+
+    .btn_report_1 {
+        text-align: center;
+    }
+
+    /* Media Query */
+
+    .c-images {
+        width: 100%;
+    }
+
+    .news-headlines {
+        color: #333;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center !important;
+        margin-left: 0%;
+        margin-top: 50px;
+    }
+
+    .news-headlines {
+        color: #333;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center !important;
+        margin-left: 0%;
+        margin-top: 50px;
+    }
+
+    .news-contexts {
+        color: #000;
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: 0%;
+        text-align: -webkit-auto;
+    }
+
+    .read-more {
+        color: #FCBB15;
+        font-size: 20px;
+        font-weight: 700;
+        position: relative;
+        top: 43%;
+        left: 0;
+    }
+
+    .carousel-caption {
+        position: relative;
+        right: 0%;
+        bottom: 2rem;
+        left: 30px;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        color: #fff;
+        text-align: justify;
+    }
+
+    .carousel-indicators {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+        margin-left: 7%;
+        list-style: none;
+        top: 550px;
+    }
+
+    .subscribe-section {
+        height: 590px;
+    }
+
+    .subscribe-bttn {
+        padding: 8px;
+        width: 60%;
+    }
+
+    .contact_text_page {
+        padding-top: 20px;
+        display: block;
+    }
+
+    .subscribe-heading {
+        font-size: 19px;
+}
+
+.btn_ac {
+    width: 31.8%;
+}
+
+#myDIV {
+    width: 100%;
+}
+
+.dropbtn {
+    font-size: 16px;
+}
+
+button.btn_ac.active {
+    font-size: 16px;
+}
+
+.global-flex-div.glob_icen i {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.global-flex-div.glob_icen p {
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.global_text_page {
+    display: block;
+}
+
+.report-missing-button {
+    width: 100%;
+}
+
+.product_mainHeading {
+    width: 100%;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.product_h p {
+    font-size: 20px;
+}
+
+.ad_se_g_bac {
+    height: auto;
+}
+
+img.dot-sqr2.sub_new_img {
+    right: -10px;
+    top: 0px;
+}
+
+.sub_new_img {
+    position: absolute;
+    width: 138px;
+    height: 114px;
+}
+
+img.dot-sqr1.sub_new_img {
+    bottom: 125px;
+    left: -10px;
+}
+
+.sub_new_img {
+    position: absolute;
+    width: 138px;
+    height: 114px;
+}
+
+    .globeImage {
+        margin-top: 17%;
+    }
+
+    .contactHeading {
+        font-size: 30px;
+        margin-top: 27%;
+    }
+
+    .us-back {
+        font-size: 30px;
+    }
+
+    .subtitleContact {
+        font-size: 16px;
+        width: 60%;
+    }
+
+    .contactsSections1 {
+        width: 95%;
+        padding: 18px;
+    }
+
+    .dropAline {
+        font-size: 25px;
+    }
+
+    .line-back {
+        color: #FCBB15;
+        font-size: 25px;
+    }
+
+    .pleaseFeelfree {
+        font-size: 16px;
+    }
+
+    .labelNames {
+        font-size: 16px;
+    }
+
+    .subButtoncontact {
+        width: 47%;
+        font-size: 16px;
+    }
+}
